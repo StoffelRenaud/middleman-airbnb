@@ -1,0 +1,15 @@
+<div class="container">
+  <div class="row">
+    <% 12.times do %>
+      <div class="col-sx-12 col-sm-6 col-md-4">
+        <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://kitt.lewagon.com/placeholder/cities/shanghai');">
+          <div class="card-category">Popular</div>
+          <div class="card-description">
+            <h2>Le Wagon Shanghai</h2>
+            <p>Very cool city, the best</p>
+          </div>
+          <%= link_to image_tag("https://kitt.lewagon.com/placeholder/users/StoffelRenaud", class:"card-user"), "/", class: "card-link" %>
+        </div>
+      </div>
+    <% end %>
+  </div>
